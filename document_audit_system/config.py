@@ -14,7 +14,8 @@
 #     "ruleset"    -> which validation logic to use            in validation.py
 #     "reference"  -> which dataset to load                    in reference.py
 # ---------------------------------------------------------------------------
-PIPELINE_CONFIGure = {
+# learning source control
+PIPELINE_CONFIG = {
     "emi_emc_verification": {
         "extractor":  "emi_emc",       # -> extract_emi_emc() in extractors.py
         "ruleset":    "emi_emc_rules", # -> _validate_emi_emc() in validation.py
